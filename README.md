@@ -6,7 +6,7 @@
 
 This Project is created by Liam Noone and Naoise O loughlin.
 
-This Webpage allows you to buy boats and parts for all your sea sailing needs!
+This Webpage allows you to buy boats and parts for all your boating needs!
 
 Here are some features we have implemented: The ability to buy a boat/or boat parts, sell a boat, finance a boat and also create an account.
 
