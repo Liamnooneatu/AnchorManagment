@@ -8,7 +8,7 @@ export default function ShopDropdown() {
   const router = useRouter();
 
   function handleSelect(category) {
-    router.push('/shop/' + category);
+    router.push(category);
     setOpen(false); // close list after selection
   }
 
