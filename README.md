@@ -12,7 +12,7 @@ Here are some features we have implemented: The ability to buy a boat/or boat pa
 
 by adding a boat to your cart you can then checkout and even enter a **Discount code** to get some money off your cart total!
 
-Websites we used for coding examples and features: 
+Websites we used for coding examples, features & importing live gifs : 
 
 https://www.w3schools.com/nodejs/default.asp
 
