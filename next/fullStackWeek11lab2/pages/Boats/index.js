@@ -17,26 +17,34 @@ const BoatSalesPage = () => {
       <section style={{ padding: "2rem" }}>
         <h2>Featured Boats</h2>
         <div style={{ display: "flex", gap: "2rem", flexWrap: "wrap" }}>
-          <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
+          <div style={{ border: "1px solid #ccc", padding: "1rem", width: "800px" }}>
             <img src="https://brunswick.scene7.com/is/image/brunswick/Hero-5?$H-2000-2000$&fit=constrain&fmt=webp-alpha" alt="Bayliner VR5 Bowrider" style={{ width: "100%" }} />
             <h3>Bayliner VR5 Bowrider</h3>
             <p>20 ft length, 200 HP engine, 8 seats</p>
             <p>Price: $35,000</p>
             <button>View Details</button>
           </div>
-          <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
+           <div style={{ border: "1px solid #ccc", padding: "1rem", width: "800px" }}>
+            <img src="https://features.boats.com/boat-content/files/2015/07/BH0I5077-630x420.jpg" alt="Bayliner VR5 Bowrider" style={{ width: "100%" }} />
+            <h3>Premier Sunsation 270 Walk-On: Joystick Joy Ride</h3>
+            <p>35 ft length, 800 HP engine, 10 seats</p>
+            <p>Price: $105,000</p>
+            <button>View Details</button>
+          </div>
+          <div style={{ border: "1px solid #ccc", padding: "1rem", width: "800px" }}>
             <img src="https://images.boattrader.com/resize/1/56/66/2019-yamaha-boats-ar195-power-9895666-20250804131820349-1.jpg?w=402&ratio=default&t=1754338701000&format=webp&exact" alt="Yamaha AR195" style={{ width: "100%" }} />
             <h3>Yamaha AR195</h3>
             <p>19 ft length, jet drive, 8 seats</p>
             <p>Price: $29,500</p>
             <button>View Details</button>
           </div>
-          <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
+          <div style={{ border: "1px solid #ccc", padding: "1rem", width: "800px" }}>
             <img src="https://www.searay.com/content/dam/searay/spx-series/spx-210-ob/sea-ray-spx-210-outboard-floorplan.png" alt="Sea Ray SPX 210" style={{ width: "100%" }} />
             <h3>Sea Ray SPX 210</h3>
             <p>21 ft length, 250 HP engine, 10 seats</p>
             <p>Price: $42,000</p>
-            <button>View Details</button>
+            <button>View Details</button>   
+                     
           </div>
         </div>
       </section>
