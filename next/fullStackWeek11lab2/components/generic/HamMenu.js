@@ -28,6 +28,7 @@ export default function ShopDropdown() {
           <li onClick={() => handleSelect('Boats')}>Boats</li>
           <li onClick={() => handleSelect('Parts')}>Parts</li>
           <li onClick={() => handleSelect('Engines')}>Engines</li>
+           <li onClick={() => handleSelect('Paint')}>Paint</li>
           <li onClick={() => handleSelect('Second-Hand')}>Second-Hand</li>
         </ul>
       )}
