@@ -15,11 +15,11 @@ const BoatSalesPage = () => {
 
       {/* Featured Boats */}
       <section style={{ padding: "2rem" }}>
-        <h2>Featured Boats</h2>
+        <h2>Featured Second hand Boats</h2>
         <div style={{ display: "flex", gap: "2rem", flexWrap: "wrap" }}>
           <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
-            <img src="https://brunswick.scene7.com/is/image/brunswick/Hero-5?$H-2000-2000$&fit=constrain&fmt=webp-alpha" alt="Bayliner VR5 Bowrider" style={{ width: "100%" }} />
-            <h3>Bayliner VR5 Bowrider</h3>
+            <img src="https://dailyboats.com/bimg/2/0/9/1/2/1/boat/1_large.jpg" alt="Bayliner VR5 Bowrider" style={{ width: "100%" }} />
+            <h3>2004 Yarmouth 23</h3>
             <p>20 ft length, 200 HP engine, 8 seats</p>
             <p>Price: $35,000</p>
             <button>View Details</button>

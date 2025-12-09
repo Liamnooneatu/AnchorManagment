@@ -2,45 +2,86 @@ import React from "react";
 
 const BoatSalesPage = () => {
   return (
-    <div style={{ fontFamily: "Arial, sans-serif", lineHeight: "1.6" }}>
-      {/* Hero Section */}
-      <header style={{ textAlign: "center", padding: "2rem", background: "#0077b6", color: "#fff" }}>
-        <h1>Find Your Perfect Boat Today</h1>
-        <p>New & pre-owned boats, unbeatable prices, trusted service.</p>
-        <div>
-          <button style={{ margin: "0.5rem", padding: "0.75rem 1.5rem" }}>Browse Inventory</button>
-          <button style={{ margin: "0.5rem", padding: "0.75rem 1.5rem" }}>Contact Us</button>
-        </div>
-      </header>
+    <div style={{ fontFamily: "Arial, sans-serif", lineHeight: "1.6" }}>    
 
-      {/* Featured Boats */}
-      <section style={{ padding: "2rem" }}>
-        <h2>Featured Boats</h2>
+      {/* Featured Boats */}  <section style={{ padding: "2rem" }}>
+        <h2>Featured Parts</h2>
         <div style={{ display: "flex", gap: "2rem", flexWrap: "wrap" }}>
           <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
-            <img src="https://brunswick.scene7.com/is/image/brunswick/Hero-5?$H-2000-2000$&fit=constrain&fmt=webp-alpha" alt="Bayliner VR5 Bowrider" style={{ width: "100%" }} />
-            <h3>Bayliner VR5 Bowrider</h3>
-            <p>20 ft length, 200 HP engine, 8 seats</p>
-            <p>Price: $35,000</p>
+            <img src="https://d3u60hpy3azizo.cloudfront.net/images/thumbnails/600/620/detailed/128/SHE23973.jpg?t=1734404829" alt="Bayliner VR5 Bowrider" style={{ width: "100%" }} />
+            <h3>Minor repair kit</h3>
+            <p>Brand: Sherwood</p>
+            <p>Price: $405.48</p>
             <button>View Details</button>
           </div>
           <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
-            <img src="https://images.boattrader.com/resize/1/56/66/2019-yamaha-boats-ar195-power-9895666-20250804131820349-1.jpg?w=402&ratio=default&t=1754338701000&format=webp&exact" alt="Yamaha AR195" style={{ width: "100%" }} />
-            <h3>Yamaha AR195</h3>
-            <p>19 ft length, jet drive, 8 seats</p>
-            <p>Price: $29,500</p>
+            <img src="https://d3u60hpy3azizo.cloudfront.net/images/thumbnails/600/620/detailed/117/CEF500164T.jpg?t=1734405076" alt="Yamaha AR195" style={{ width: "100%" }} />
+            <h3>IMPELLER CEF500164T</h3>
+            <p>Brand: impeller</p>
+            <p>Price: $117.07</p>
             <button>View Details</button>
           </div>
           <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
-            <img src="https://www.searay.com/content/dam/searay/spx-series/spx-210-ob/sea-ray-spx-210-outboard-floorplan.png" alt="Sea Ray SPX 210" style={{ width: "100%" }} />
-            <h3>Sea Ray SPX 210</h3>
-            <p>21 ft length, 250 HP engine, 10 seats</p>
-            <p>Price: $42,000</p>
+            <img src="https://d3u60hpy3azizo.cloudfront.net/images/thumbnails/220/240/detailed/131/RECGM6.2MPI.jpg?t=1732329200" alt="Sea Ray SPX 210" style={{ width: "100%" }} />
+            <h3>Engine Base GM 6.2 MPI</h3>
+            <p>Brand: Recmar</p>
+            <p>Price: $14,510.67</p>
             <button>View Details</button>
-          </div>
+          </div>  
+          <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
+            <img src="https://d3u60hpy3azizo.cloudfront.net/images/thumbnails/600/620/detailed/151/300.png?t=1734835865" alt="Sea Ray SPX 210" style={{ width: "100%" }} />
+            <h3>MARINE BASE ENGINE 5.7L</h3>
+            <p>Brand: Recmar</p>
+            <p>Price: $7,657.29</p>
+            <button>View Details</button>
+          </div>  
+           <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
+            <img src="https://d3u60hpy3azizo.cloudfront.net/images/thumbnails/600/620/detailed/127/RECGM350PREVORTEC.jpg?t=1734405162" alt="Sea Ray SPX 210" style={{ width: "100%" }} />
+            <h3></h3>
+            <p>Brand: Recmar</p>
+            <p>Price: $7,595.29</p>
+            <button>View Details</button>
+          </div>      
+           <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
+            <img src="https://d3u60hpy3azizo.cloudfront.net/images/thumbnails/600/620/detailed/62/REC22898644.jpg?t=1734404999" alt="Sea Ray SPX 210" style={{ width: "100%" }} />
+            <h3>Duel Prop fits Volvo G4 (22548194, 22754004, 23000185, 22898644)</h3>
+            <p>Brand: Recmar</p>
+            <p>Price: $3,427.55</p>
+            <button>View Details</button>
+          </div>      
+           <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
+            <img src="https://d3u60hpy3azizo.cloudfront.net/images/thumbnails/600/620/detailed/127/REC898253T22.jpg?t=1734490780" alt="Sea Ray SPX 210" style={{ width: "100%" }} />
+            <h3>Mercruiser/ Distribution Cap Late Vortec V8 GXI MPI (3858975, 884792, 898253T22)</h3>
+            <p>Brand: Recmar</p>
+            <p>Price: $62.52</p>
+            <button>View Details</button>
+          </div>          
+          <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
+            <img src="https://d3u60hpy3azizo.cloudfront.net/images/thumbnails/600/620/detailed/44/1_mzga-ix.jpg?t=1734405327" alt="Sea Ray SPX 210" style={{ width: "100%" }} />
+            <h3>Ignition Coil Module V6 & V8 Vortec (3858984)</h3>
+            <p>Brand: Recmar</p>
+            <p>Price: $80.54</p>
+            <button>View Details</button>
+          </div>         
+          <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
+            <img src="https://d3u60hpy3azizo.cloudfront.net/images/thumbnails/600/620/detailed/126/REC875579.jpg?t=1734490852" alt="Sea Ray SPX 210" style={{ width: "100%" }} />
+            <h3>Piston set for diesel engines ( 875497, 875579) 0.75mm</h3>
+            <p>Brand: Recmar</p>
+            <p>Price: $849.35</p>
+            <button>View Details</button>
+          </div>        
+          <div style={{ border: "1px solid #ccc", padding: "1rem", width: "300px" }}>
+            <img src="https://d3u60hpy3azizo.cloudfront.net/images/thumbnails/600/620/detailed/62/REC20739057.jpg?t=1734404998" alt="Sea Ray SPX 210" style={{ width: "100%" }} />
+            <h3>INLET VALVE Diesel D16C-A MH,-A MG,-B MB,-C MH(20739057)</h3>
+            <p>Brand: Recmar</p>
+            <p>Price: $69.41</p>
+            <button>View Details</button>
+          </div>         
         </div>
-      </section>
+      </section>      
 
+
+      
       {/* Why Buy From Us */}
       <section style={{ background: "#f8f9fa", padding: "2rem" }}>
         <h2>Why Buy From Us?</h2>
@@ -67,10 +108,10 @@ const BoatSalesPage = () => {
       <section style={{ background: "#f1f1f1", padding: "2rem" }}>
         <h2>Customer Testimonials</h2>
         <blockquote>
-          “They've got boats alright” - John down the road
+           “My Engine arrived damaged and i was able to contact support and be given a brand new enginer free of charge” - Joe ⭐⭐⭐⭐⭐
         </blockquote>
         <blockquote>
-          “Wow boy do they have some boats” - Joe
+           “My Engine arrived damaged and i was able to contact support and be given a brand new enginer free of charge” - Joe ⭐⭐⭐⭐⭐
         </blockquote>
       </section>
 
